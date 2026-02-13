@@ -7,7 +7,6 @@ Created on Thu Feb 12 20:03:11 2026
 
 import numpy as np
 import matplotlib.pyplot as plt
-import math
 
 #Para obviar las unidades, dejamos todo de manera adimensional
 
@@ -60,4 +59,5 @@ plt.plot(t, Vz, label="Vz")
 plt.xlabel("t")
 plt.ylabel("Velocidad")
 plt.legend()
+
 plt.title("Dinamica de la velocidad")
